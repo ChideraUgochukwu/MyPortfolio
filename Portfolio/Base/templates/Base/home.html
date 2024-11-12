@@ -1,9 +1,5 @@
 {% load static %}
 
-<!-- <h1>Hello WoRLD!</h1>
-
-<img src="{% static 'images/Youtube Logo.png' %}" /> -->
-
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -27,7 +23,11 @@
     <div class="container">
       <div class="row">
         <div class="col-md-3">
-          <div class="card card-body"></div>
+          <div class="card card-body" id="profile-wrapper">
+            <img id="profile-pic" src="{% static '\images\github-mark-white.png' %}" />
+            <h4>Hi, I'm Chidera!</h4>
+            <p>I love coding, doing research and collaborating!</p>
+          </div>
         </div>
         <div class="col-md-9">
           <div class="card card-body"></div>
